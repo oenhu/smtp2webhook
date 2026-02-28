@@ -10,7 +10,7 @@ import requests
 import json
 import datetime
 from concurrent.futures import ThreadPoolExecutor
-
+# Copyright (c) 2023-2024 [https://github.com/oenhu/smtp2webhook/]. All rights reserved.
 # 引入基础 SMTP 协议类
 from aiosmtpd.smtp import SMTP as AioSMTP
 
@@ -279,3 +279,4 @@ if __name__ == '__main__':
         asyncio.run(main())
     except KeyboardInterrupt:
         pass
+# Copyright (c) 2023-2024 [https://github.com/oenhu/smtp2webhook/]. All rights reserved.
